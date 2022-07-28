@@ -119,7 +119,7 @@
 }
 @media (min-width: 1024px){
     .header__container{
-        padding: 40% 10%;
+        padding: 20% 10%;
         height: 100vh;
     }
     .header_grid_colunms{
