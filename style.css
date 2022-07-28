@@ -21,21 +21,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .header{
     background: var(--background-headings-buttons);
 }
 .header__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40% 10%;
-    height: 100vh;
+    padding:20% 0px;
 }
 .header_grid_colunms{
     display: grid;
     grid-template-columns: 300px;
     grid-template-rows: repeat(3,400px);
-    
 }
 
 .header__col1,
@@ -121,8 +121,7 @@
 }
 @media (min-width: 1024px){
     .header__container{
-        padding: 5% 10%;
-        height: 100vh;
+        padding:3% 0px;
     }
     .header_grid_colunms{
         grid-template-columns: repeat(3,350px);
